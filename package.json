@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "MU* inspired text world creator.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "serve": "webpack --watch --progress --colors --display-error-details"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aaronpflaumer/virtuosi.git"
