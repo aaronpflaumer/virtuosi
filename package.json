@@ -1,0 +1,42 @@
+{
+  "name": "virtuosi",
+  "version": "0.0.0",
+  "description": "MU* inspired text world creator.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronpflaumer/virtuosi.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "mud"
+  ],
+  "author": "Aaron Pflaumer",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/aaronpflaumer/virtuosi/issues"
+  },
+  "homepage": "https://github.com/aaronpflaumer/virtuosi#readme",
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.9.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "browser-sync": "^2.12.8",
+    "browser-sync-webpack-plugin": "^1.0.1",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "node-sass": "^3.7.0",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1"
+  }
+}
