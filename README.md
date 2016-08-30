@@ -4,7 +4,7 @@ MU* inspired text world creator.
 #### Technologies
 * ReactJS
 * React Flux
-* Express
+* Node.js Express
 * PostgreSQL
 
 #### Setup
