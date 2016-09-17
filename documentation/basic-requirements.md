@@ -12,5 +12,6 @@
 * Chat
   * User list
   * Text
-* Settings
-  * Set default name
+* World Menu
+  * Set Name
+  * Exit
