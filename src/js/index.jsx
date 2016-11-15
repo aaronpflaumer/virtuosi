@@ -1,14 +1,19 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-// import Layout from './components/Layout/Layout.jsx';
+import { render } from 'react-dom';
+import { Router, Route, browserHistory, IndexRoute } from 'react-router';
+import App from './components/App/App.jsx';
 
 require('./components/common/colors.scss');
 require('./components/common/constants.scss');
 
-const app = document.getElementById('app');
-ReactDOM.render(
-  <div>
-    // <Layout />
-    Test
-  </div>,
-app);
+render((
+  <Router history={browserHistory}>
+    <Route path="/" component={App}>
+      {/*<IndexRoute component={Home}/>
+      <Route path="/repos" component={Repos}>
+        <Route path="/repos/:userName/:repoName" component={Repo}/>
+      </Route>
+      <Route path="/about" component={About}/> */}
+    </Route>
+  </Router>
+), document.getElementById('app'))
